@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>呆呆国官方网站</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #87cefa;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #b0e0e6;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .section {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #87cefa;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到呆呆国</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">关于呆呆国</a></li>
+            <li><a href="#culture">文化特色</a></li>
+            <li><a href="#tourism">旅游信息</a></li>
+            <li><a href="#contact">联系我们</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="about" class="section">
+            <h2>关于呆呆国</h2>
+            <p>呆呆国是一个充满欢乐和想象力的国度。这里的居民以友善、幽默和些许呆萌而闻名。我们的国家信条是："保持呆萌，享受生活！"</p>
+        </div>
+
+        <div id="culture" class="section">
+            <h2>文化特色</h2>
+            <p>呆呆国的文化充满了独特的魅力：</p>
+            <ul>
+                <li>国民运动：晒太阳比赛（谁晒得最久不动谁就赢）</li>
+                <li>传统美食：棉花糖汉堡和彩虹冰淇淋</li>
+                <li>年度盛会：全国呆呆节（每个人都要装扮成自己最喜欢的呆萌角色）</li>
+            </ul>
+        </div>
+
+        <div id="tourism" class="section">
+            <h2>旅游信息</h2>
+            <p>来呆呆国旅游，您可以：</p>
+            <ul>
+                <li>参观世界最大的泡泡糖博物馆</li>
+                <li>体验云朵主题公园（所有设施都是软绵绵的）</li>
+                <li>入住树屋酒店，与小动物们成为邻居</li>
+            </ul>
+        </div>
+
+        <div id="contact" class="section">
+            <h2>联系我们</h2>
+            <p>如果您有任何问题，或者想要申请呆呆国公民身份，请联系我们：</p>
+            <p>电子邮件：info@daidaiguo.com</p>
+            <p>呆呆热线：123-456-7890</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 呆呆国官方网站. 保留所有权利。请保持呆萌！</p>
+    </footer>
+</body>
+</html>
